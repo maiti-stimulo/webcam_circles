@@ -21,15 +21,23 @@ Inicialment estava pensada per a la detecció de rectes, el detectar cercles ha 
 
 HoughCircles(InputArray image, OutputArray circles, int method, double dp, double minDist, double param1=100, double param2=100, int minRadius=0, int maxRadius=0 )
 
-src_gray: imatge escala de grisos
+src_gray: imatge escala de grisos.
+
 circles: Matriu de tres valors X, Y I Radi per cada cercle detectat. 
-CV_HOUGH_GRADIENT: métode de detecció
-dp = Es la inversa del rati de la ressolució 
-min_dist = Distància minima entre cercles detectats 
+
+CV_HOUGH_GRADIENT: métode de detecció.
+
+dp = Es la inversa del rati de la ressolució .
+
+min_dist = Distància minima entre cercles detectats .
+
 param_1 = Filtra imatges que no estan dins del parametres desitjats 
+
 param_2 = Detecció dels cercles. 
+
 min_radius =  Radi minim a detectar. 
-max_radius = Radi màxim a detectar
+
+max_radius = Radi màxim a detectar.
 
 
 
